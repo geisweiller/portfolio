@@ -8,8 +8,8 @@ import Content from './pages/Content/index';
 
 const Routes = () => (
   <BrowserRouter>
-      <Route exact path = '/'component={Landing}/> 
-      <Route path='/home' component={Content}/>
+      <Route exact path = '/portfolio/'component={Landing}/> 
+      <Route path='/portfolio/home' component={Content}/>
   </BrowserRouter>
 )
 

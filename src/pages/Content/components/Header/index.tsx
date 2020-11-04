@@ -58,11 +58,11 @@ export default function Header() {
 
         (
         
-        <Link to='/'><img src={agDarkLogo} alt='Arthur Geisweiller'height='40rem'/></Link>
+        <Link to='/portfolio'><img src={agDarkLogo} alt='Arthur Geisweiller'height='40rem'/></Link>
 
         ) : (
           
-        <Link to='/'><img src={agLogo} alt='Arthur Geisweiller'height='40rem'/></Link>
+        <Link to='/portfolio'><img src={agLogo} alt='Arthur Geisweiller'height='40rem'/></Link>
         
         )}
         
