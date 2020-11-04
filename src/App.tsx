@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from 'react-redux';
+import GlobalStyle from './assets/styles/global';
+import Routes from './routes';
 
-function App() {
+import { State } from './store/index';
+import { Theme } from './store/modules/darkMode/types';
+
+
+export default function App() {
+  const value = useSelector<State, Theme>((state) => state.darkMode)
+  
+  const theme = value.theme;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <>
+      <GlobalStyle theme={theme}/>
+      <Routes />
+    </>
+
+  )
+  
+  
 }
 
-export default App;
