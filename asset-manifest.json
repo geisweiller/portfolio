@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.54f860af.chunk.css",
+    "main.js": "/portfolio/static/js/main.2ca441ea.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2ca441ea.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.07d7a4ee.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.07d7a4ee.js.map",
+    "static/js/2.da322e5a.chunk.js": "/portfolio/static/js/2.da322e5a.chunk.js",
+    "static/js/2.da322e5a.chunk.js.map": "/portfolio/static/js/2.da322e5a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.54f860af.chunk.css.map": "/portfolio/static/css/main.54f860af.chunk.css.map",
+    "static/js/2.da322e5a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.da322e5a.chunk.js.LICENSE.txt",
+    "static/media/Email_logo.a167289f.png": "/portfolio/static/media/Email_logo.a167289f.png",
+    "static/media/Email_logo_darkMode.571de9b8.png": "/portfolio/static/media/Email_logo_darkMode.571de9b8.png",
+    "static/media/Js_logo.166865da.png": "/portfolio/static/media/Js_logo.166865da.png",
+    "static/media/Phone_logo_darkMode.13e3831f.png": "/portfolio/static/media/Phone_logo_darkMode.13e3831f.png",
+    "static/media/React_logo.20adfb35.png": "/portfolio/static/media/React_logo.20adfb35.png",
+    "static/media/Typescript_logo.9ad81d2e.svg": "/portfolio/static/media/Typescript_logo.9ad81d2e.svg",
+    "static/media/Whatsapp_logo.6996e141.png": "/portfolio/static/media/Whatsapp_logo.6996e141.png",
+    "static/media/Whatsapp_logo_darkMode.724878a5.png": "/portfolio/static/media/Whatsapp_logo_darkMode.724878a5.png",
+    "static/media/code.18bcba89.gif": "/portfolio/static/media/code.18bcba89.gif",
+    "static/media/development.98bacd88.png": "/portfolio/static/media/development.98bacd88.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07d7a4ee.js",
+    "static/js/2.da322e5a.chunk.js",
+    "static/css/main.54f860af.chunk.css",
+    "static/js/main.2ca441ea.chunk.js"
+  ]
+}
