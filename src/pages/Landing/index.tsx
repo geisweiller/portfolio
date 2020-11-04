@@ -39,7 +39,7 @@ export default function Landing() {
         <img src={landingImage} alt='Development'/>
       </ImageContainer>
       
-      <Link to='/home'type='button' className='access'>Acessar <ArrowForwardIosIcon/></Link>
+      <Link to='/portfolio/home'type='button' className='access'>Acessar <ArrowForwardIosIcon/></Link>
       <ButtonsContainer>
         {/* <div>
           <button type='button' className='language'><img src={englishLanguage} alt='Language'/></button>
