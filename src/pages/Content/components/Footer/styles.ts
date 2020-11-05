@@ -18,7 +18,7 @@ export const FooterContainer = styled.div`
   }
 
   a {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 0 1rem;
     text-decoration: none;
 

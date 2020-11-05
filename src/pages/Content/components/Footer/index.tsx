@@ -17,6 +17,7 @@ export default function Footer() {
        <a href='https://www.facebook.com/arthurgeisweiller/'>Facebook</a>
        <a href='https://www.instagram.com/arthurgeisweiller/?hl=pt-br'>Instagram</a>
        <a href='https://www.linkedin.com/in/arthur-geisweiller-414587b7/'>Linkedin</a>
+       <a href='https://github.com/geisweiller'>GitHub</a>
      </div>
    </FooterContainer>
   )

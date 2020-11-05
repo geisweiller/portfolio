@@ -20,6 +20,26 @@ export const ExperienceContainer = styled.div`
     font-size: 0.8rem;
     text-align: justify;
   }
+
+  a {
+    font-size: 1rem;
+    text-decoration: none;
+
+
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+
+    background: ${(props) => (props.theme === true ? '#DDDDDD' : '#202020')};
+    color: ${(props) => (props.theme === true ? '#202020' : '#F5F5F5')};
+
+    :hover{
+      background: #000;
+      color: #F5F5F5;
+      transition: background 0.3s;
+    }
+  }
 `;
 
 export const CenteredContainer = styled.div`
