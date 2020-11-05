@@ -24,24 +24,11 @@ export const AboutContainer = styled.div`
     text-align: justify;
   }
 
-  a {
-    font-size: 1rem;
-    text-decoration: none;
-
-
-    padding: 1rem;
-    margin-top: 2rem;
-    border: none;
-    border-radius: 0.2rem;
-
-    background: ${(props) => (props.theme === true ? '#DDDDDD' : '#202020')};
-    color: ${(props) => (props.theme === true ? '#202020' : '#F5F5F5')};
-
-    :hover{
-      background: #000;
-      color: #F5F5F5;
-      transition: background 0.3s;
-    }
+  img {
+    width: 10rem;
+    border: 0.1rem solid;
+    border-radius: 50%;
+    margin-bottom: 2rem;
   }
 
 
