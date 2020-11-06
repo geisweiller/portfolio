@@ -29,7 +29,7 @@ export default function About() {
       <CenteredContainer>
         <h1>Sobre mim</h1>
 
-        <img src={data} alt='Arthur Geisweiller'/>
+        <img src={data} alt='avatar'/>
 
         <p>Graduando em Ciência da Computação pela UNIFACS e formado em Engenharia Ambiental (2016.2), na mesma universidade.
           Atualmente estou focando em dominar a Stack de Frontend atráves de estudos diários. 

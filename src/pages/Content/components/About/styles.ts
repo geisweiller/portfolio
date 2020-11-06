@@ -29,6 +29,7 @@ export const AboutContainer = styled.div`
     border: 0.1rem solid;
     border-radius: 50%;
     margin-bottom: 2rem;
+    font-size: 1rem;
   }
 
 
