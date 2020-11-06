@@ -54,6 +54,7 @@ export const ImageContainer = styled.div`
   
   img {
     height: 20rem;
+    font-size: 1rem;
   }
 
 `;
