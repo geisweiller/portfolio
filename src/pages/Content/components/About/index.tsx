@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { useSelector } from 'react-redux';
-import api from '../../../../services/api';
 import { State } from '../../../../store';
 import { Theme } from '../../../../store/modules/darkMode/types';
 
