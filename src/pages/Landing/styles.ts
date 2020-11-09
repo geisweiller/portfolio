@@ -10,7 +10,6 @@ export const LandingContainer = styled.div`
   
   height: 100%;
 
-  
 
   a.access {
 
@@ -39,10 +38,6 @@ export const LandingContainer = styled.div`
         transition: background 0.3s;
       }
     }
-
-  
-    
-
 `;
 
 export const ImageContainer = styled.div`
