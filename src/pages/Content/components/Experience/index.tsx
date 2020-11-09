@@ -1,11 +1,16 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
+import { State } from '../../../../store';
+import { Theme } from '../../../../store/modules/darkMode/types';
 
 import { ExperienceContainer, CenteredContainer } from './styles';
 
 export default function Experience() {
+  const value = useSelector<State, Theme>((state) => state.darkMode)
+  const theme = value.theme;
   
   return (
-   <ExperienceContainer id='experience'>
+   <ExperienceContainer id='experience' theme={theme}>
      <CenteredContainer>
         <h1>Experiência</h1>
         <p>
