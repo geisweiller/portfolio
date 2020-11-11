@@ -1,15 +1,25 @@
-import React from 'react'
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import { State } from '../../../../store';
 import { Theme } from '../../../../store/modules/darkMode/types';
 
 import avatar from '../../../../assets/images/profile.jpg'
 
 import { AboutContainer, CenteredContainer } from './styles';
+import { toggleDarkMode } from '../../../../store/modules/darkMode/actions';
 
 export default function About() {
   const value = useSelector<State, Theme>((state) => state.darkMode)
   const theme = value.theme;
+  const localItem = JSON.parse(localStorage.getItem('theme')|| '{}');
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if(localItem === true) {
+      dispatch(toggleDarkMode(localItem))
+    }
+   }, [dispatch, localItem]);
+
 
   return (
     <AboutContainer theme={theme} id='about'>

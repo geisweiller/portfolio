@@ -26,7 +26,10 @@ export const HeaderContainer = styled.div`
 
     display: flex;
     justify-content: space-between;
+
+    padding-top: 0.5rem;
     width: 100%;
+    
 
   }
 
