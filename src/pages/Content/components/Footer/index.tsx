@@ -14,10 +14,10 @@ export default function Footer() {
    <FooterContainer theme={theme}>
      <p>Copyright © 2020 Arthur Geisweiller</p>
      <div>
-       <a href='https://www.facebook.com/arthurgeisweiller/'>Facebook</a>
-       <a href='https://www.instagram.com/arthurgeisweiller/?hl=pt-br'>Instagram</a>
-       <a href='https://www.linkedin.com/in/arthur-geisweiller-414587b7/'>Linkedin</a>
-       <a href='https://github.com/geisweiller'>GitHub</a>
+       <a target='_blank' rel='noreferrer' href='https://www.facebook.com/arthurgeisweiller/'>Facebook</a>
+       <a target='_blank' rel='noreferrer' href='https://www.instagram.com/arthurgeisweiller/?hl=pt-br'>Instagram</a>
+       <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/arthur-geisweiller-414587b7/'>Linkedin</a>
+       <a target='_blank' rel='noreferrer' href='https://github.com/geisweiller'>GitHub</a>
      </div>
    </FooterContainer>
   )

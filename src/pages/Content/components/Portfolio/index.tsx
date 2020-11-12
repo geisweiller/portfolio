@@ -69,7 +69,7 @@ export default function Portfolio() {
                 <span className='indicator' style={{background: colorScheme(repo.language)}}/>
                 <span>{repo.language}</span>
               </div>
-              <a href={repo.html_url}>Acesse o repositório <ArrowForwardIosIcon/></a>
+              <a target='_blank' rel='noreferrer' href={repo.html_url}>Acesse o repositório <ArrowForwardIosIcon/></a>
             </ProjectContainer>
           </Section>
           )
